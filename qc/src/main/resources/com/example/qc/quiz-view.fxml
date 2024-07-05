@@ -10,11 +10,11 @@
 
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.qc.controller.QuizController" spacing="15" alignment="CENTER" prefHeight="400" prefWidth="400">
     <children>
-        <Label text="Quiz Application" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+        <Label text="Aplikacja Quiz" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
         <ProgressBar fx:id="progressBar" progress="0" prefWidth="200" />
         <VBox fx:id="quizContainer" spacing="10" />
-        <Button fx:id="nextQuestionButton" text="Next Question" onAction="#nextQuestion" disable="true" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
-        <Button fx:id="submitAnswersButton" text="Submit Answers" onAction="#submitAnswers" disable="true" style="-fx-background-color: #f44336; -fx-text-fill: white;" />
+        <Button fx:id="nextQuestionButton" text="Następne Pytanie" onAction="#nextQuestion" disable="true" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
+        <Button fx:id="submitAnswersButton" text="Zatwierdź Odpowiedzi" onAction="#submitAnswers" disable="true" style="-fx-background-color: #f44336; -fx-text-fill: white;" />
     </children>
     <padding>
         <Insets top="20" right="20" bottom="20" left="20" />

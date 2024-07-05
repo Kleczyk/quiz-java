@@ -1,5 +1,6 @@
 package com.example.qc.controller;
 
+import com.example.qc.QuizApplication;
 import javafx.animation.FadeTransition;
 import javafx.animation.ScaleTransition;
 import javafx.fxml.FXML;
@@ -19,7 +20,7 @@ public class ResultController {
 
     public void setScore(int score) {
         this.score = score;
-        scoreLabel.setText("Your score is: " + score);
+        scoreLabel.setText("Twój wynik to: " + score);
         animateScore();
     }
 
@@ -41,7 +42,7 @@ public class ResultController {
     @FXML
     public void restartQuiz() {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/qc/intro-view.fxml"));
+            FXMLLoader loader = new FXMLLoader(QuizApplication.class.getResource("/com/example/qc/intro-view.fxml"));
             Stage stage = (Stage) scoreLabel.getScene().getWindow();
             Scene scene = new Scene(loader.load());
             stage.setScene(scene);

@@ -8,10 +8,10 @@
 
 <VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.qc.controller.IntroController" spacing="15" alignment="CENTER" prefHeight="400" prefWidth="400">
     <children>
-        <Label text="Quiz Application" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
-        <Label text="Enter your name:" />
+        <Label text="Aplikacja Quiz" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+        <Label text="Wprowadź swoje imię:" />
         <TextField fx:id="nameField" />
-        <Button text="Start Quiz" onAction="#startQuiz" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" />
+        <Button text="Rozpocznij Quiz" onAction="#startQuiz" style="-fx-background-color: #4CAF50; -fx-text-fill: white;" />
     </children>
     <padding>
         <Insets top="20" right="20" bottom="20" left="20" />

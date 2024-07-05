@@ -1,5 +1,6 @@
 package com.example.qc.controller;
 
+import com.example.qc.QuizApplication;
 import com.example.qc.model.QuestionDTO;
 import com.example.qc.service.QuizService;
 import javafx.fxml.FXML;
@@ -115,7 +116,7 @@ public class QuizController {
 
     private void showResult(int score) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/qc/result-view.fxml"));
+            FXMLLoader loader = new FXMLLoader(QuizApplication.class.getResource("/com/example/qc/result-view.fxml"));
             Stage stage = (Stage) quizContainer.getScene().getWindow();
             Scene scene = new Scene(loader.load());
             stage.setScene(scene);

@@ -1,5 +1,6 @@
 package com.example.qc.controller;
 
+import com.example.qc.QuizApplication;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
@@ -17,7 +18,7 @@ public class IntroController {
         String username = nameField.getText();
         if (!username.trim().isEmpty()) {
             try {
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/qc/quiz-view.fxml"));
+                FXMLLoader loader = new FXMLLoader(QuizApplication.class.getResource("/com/example/qc/quiz-view.fxml"));
                 Stage stage = (Stage) nameField.getScene().getWindow();
                 Scene scene = new Scene(loader.load());
                 stage.setScene(scene);
