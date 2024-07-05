@@ -8,11 +8,11 @@
 <?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.qc.controller.QuizController" spacing="15" alignment="CENTER" prefHeight="400" prefWidth="400">
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.qc.controller.QuizController" spacing="15" alignment="CENTER" prefHeight="800" prefWidth="400">
     <children>
         <Label text="Aplikacja Quiz" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
-        <ProgressBar fx:id="progressBar" progress="0" prefWidth="200" />
-        <VBox fx:id="quizContainer" spacing="10" />
+        <ProgressBar fx:id="progressBar" progress="0" maxWidth="Infinity" prefWidth="400" />
+        <VBox fx:id="quizContainer" spacing="10" maxWidth="Infinity" />
         <Button fx:id="nextQuestionButton" text="Następne Pytanie" onAction="#nextQuestion" disable="true" style="-fx-background-color: #2196F3; -fx-text-fill: white;" />
         <Button fx:id="submitAnswersButton" text="Zatwierdź Odpowiedzi" onAction="#submitAnswers" disable="true" style="-fx-background-color: #f44336; -fx-text-fill: white;" />
     </children>

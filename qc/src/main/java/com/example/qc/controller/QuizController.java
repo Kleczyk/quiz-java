@@ -1,6 +1,5 @@
 package com.example.qc.controller;
 
-import com.example.qc.QuizApplication;
 import com.example.qc.model.QuestionDTO;
 import com.example.qc.service.QuizService;
 import javafx.fxml.FXML;
@@ -61,6 +60,8 @@ public class QuizController {
         if (index >= 0 && index < questions.size()) {
             QuestionDTO question = questions.get(index);
             Label questionLabel = new Label(question.getQuestion());
+            questionLabel.setWrapText(true);  // Ustawienie zawijania tekstu
+            questionLabel.setMaxWidth(380);   // Ustawienie maksymalnej szerokości dla lepszego zawijania
             questionLabel.setStyle("-fx-font-size: 16px; -fx-font-weight: bold;");
             quizContainer.getChildren().add(questionLabel);
 
@@ -116,7 +117,7 @@ public class QuizController {
 
     private void showResult(int score) {
         try {
-            FXMLLoader loader = new FXMLLoader(QuizApplication.class.getResource("/com/example/qc/result-view.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/qc/result-view.fxml"));
             Stage stage = (Stage) quizContainer.getScene().getWindow();
             Scene scene = new Scene(loader.load());
             stage.setScene(scene);

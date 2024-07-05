@@ -5,7 +5,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.qc.controller.ResultController" spacing="15" alignment="CENTER" prefHeight="400" prefWidth="400">
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.qc.controller.ResultController" spacing="15" alignment="CENTER" prefHeight="800" prefWidth="400">
     <children>
         <Label text="Aplikacja Quiz" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
         <Label fx:id="scoreLabel" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: green;" />
