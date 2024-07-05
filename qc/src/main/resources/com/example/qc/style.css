@@ -1,0 +1,28 @@
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f0f0f0;
+}
+
+.button {
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #3700b3;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 10;
+}
+
+.label {
+    -fx-font-size: 14px;
+}
+
+.progress-bar {
+    -fx-accent: #6200ee;
+}

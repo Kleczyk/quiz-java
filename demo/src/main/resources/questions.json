@@ -1,12 +1,52 @@
 [
   {
-    "question": "What is the capital of France?",
-    "options": ["Paris", "London", "Berlin", "Madrid"],
-    "answer": "Paris"
+    "question": "Jaka jest stolica Francji?",
+    "options": ["Paryż", "Londyn", "Berlin", "Madryt"],
+    "answer": "Paryż"
   },
   {
-    "question": "What is 2 + 2?",
+    "question": "Ile to jest 2 + 2?",
     "options": ["3", "4", "5", "6"],
     "answer": "4"
+  },
+  {
+    "question": "Jakie jest najwyższe pasmo górskie na świecie?",
+    "options": ["Andes", "Himalaje", "Alpy", "Kordyliery"],
+    "answer": "Himalaje"
+  },
+  {
+    "question": "Który ocean jest największy?",
+    "options": ["Atlantycki", "Spokojny", "Arktyczny", "Indyjski"],
+    "answer": "Spokojny"
+  },
+  {
+    "question": "Kto napisał 'Pana Tadeusza'?",
+    "options": ["Juliusz Słowacki", "Adam Mickiewicz", "Henryk Sienkiewicz", "Stanisław Lem"],
+    "answer": "Adam Mickiewicz"
+  },
+  {
+    "question": "Jakie jest narodowe drzewo Polski?",
+    "options": ["Sosna", "Dąb", "Brzoza", "Klon"],
+    "answer": "Dąb"
+  },
+  {
+    "question": "Który z poniższych pierwiastków chemicznych jest metalem?",
+    "options": ["Węgiel", "Hel", "Żelazo", "Siarka"],
+    "answer": "Żelazo"
+  },
+  {
+    "question": "Kiedy obchodzimy Dzień Niepodległości Polski?",
+    "options": ["1 maja", "3 maja", "11 listopada", "15 sierpnia"],
+    "answer": "11 listopada"
+  },
+  {
+    "question": "Który z poniższych miast leży na północy Polski?",
+    "options": ["Warszawa", "Kraków", "Gdańsk", "Wrocław"],
+    "answer": "Gdańsk"
+  },
+  {
+    "question": "Która planeta jest najbliżej Słońca?",
+    "options": ["Mars", "Wenus", "Ziemia", "Merkury"],
+    "answer": "Merkury"
   }
 ]
